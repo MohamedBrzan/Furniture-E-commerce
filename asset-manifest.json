@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Furniture-E-commerce/static/css/main.dc06f20e.chunk.css",
-    "main.js": "/Furniture-E-commerce/static/js/main.c6cf2bf1.chunk.js",
-    "main.js.map": "/Furniture-E-commerce/static/js/main.c6cf2bf1.chunk.js.map",
+    "main.css": "/Furniture-E-commerce/static/css/main.fbea314c.chunk.css",
+    "main.js": "/Furniture-E-commerce/static/js/main.4646372f.chunk.js",
+    "main.js.map": "/Furniture-E-commerce/static/js/main.4646372f.chunk.js.map",
     "runtime-main.js": "/Furniture-E-commerce/static/js/runtime-main.777ba541.js",
     "runtime-main.js.map": "/Furniture-E-commerce/static/js/runtime-main.777ba541.js.map",
-    "static/js/2.2e432463.chunk.js": "/Furniture-E-commerce/static/js/2.2e432463.chunk.js",
-    "static/js/2.2e432463.chunk.js.map": "/Furniture-E-commerce/static/js/2.2e432463.chunk.js.map",
+    "static/js/2.b0989bd2.chunk.js": "/Furniture-E-commerce/static/js/2.b0989bd2.chunk.js",
+    "static/js/2.b0989bd2.chunk.js.map": "/Furniture-E-commerce/static/js/2.b0989bd2.chunk.js.map",
     "static/js/3.1dd38f49.chunk.js": "/Furniture-E-commerce/static/js/3.1dd38f49.chunk.js",
     "static/js/3.1dd38f49.chunk.js.map": "/Furniture-E-commerce/static/js/3.1dd38f49.chunk.js.map",
     "index.html": "/Furniture-E-commerce/index.html",
-    "static/css/main.dc06f20e.chunk.css.map": "/Furniture-E-commerce/static/css/main.dc06f20e.chunk.css.map",
-    "static/js/2.2e432463.chunk.js.LICENSE.txt": "/Furniture-E-commerce/static/js/2.2e432463.chunk.js.LICENSE.txt",
+    "static/css/main.fbea314c.chunk.css.map": "/Furniture-E-commerce/static/css/main.fbea314c.chunk.css.map",
+    "static/js/2.b0989bd2.chunk.js.LICENSE.txt": "/Furniture-E-commerce/static/js/2.b0989bd2.chunk.js.LICENSE.txt",
     "static/media/1.72c98570.jpg": "/Furniture-E-commerce/static/media/1.72c98570.jpg",
     "static/media/2.b29b5404.jpg": "/Furniture-E-commerce/static/media/2.b29b5404.jpg",
     "static/media/3.30b12b03.jpg": "/Furniture-E-commerce/static/media/3.30b12b03.jpg",
@@ -45,8 +45,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.777ba541.js",
-    "static/js/2.2e432463.chunk.js",
-    "static/css/main.dc06f20e.chunk.css",
-    "static/js/main.c6cf2bf1.chunk.js"
+    "static/js/2.b0989bd2.chunk.js",
+    "static/css/main.fbea314c.chunk.css",
+    "static/js/main.4646372f.chunk.js"
   ]
 }
