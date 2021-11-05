@@ -1,0 +1,50 @@
+.blog {
+  background-color: #f1f1f1; }
+.blog .text {
+  z-index: 2; }
+.blog .text p:first-of-type {
+  font-size: 15px; }
+.blog .overlay, .blog .overlayP {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000;
+  opacity: 0.5;
+  z-index: 1; }
+.blog .overlayP {
+  height: 99%; }
+.blog .overlay {
+  height: 100%; }
+.blog .blog-button {
+  background-image: linear-gradient(315deg, #ee9617 0%, #dd7a38 74%);
+  font-size: 25px; }
+.blog .visit {
+  width: 100%;
+  height: 666px;
+  overflow: hidden; }
+.blog .visit .text {
+  background-color: rgba(32, 34, 46, 0.85);
+  color: #f1f1f1; }
+@media (max-width: 767px) {
+  .blog .visit .text {
+    width: 90% !important;
+    height: 65% !important; } }
+@media (max-width: 767px) {
+  .blog .visit {
+    height: 290px !important; } }
+.blog .info {
+  background-color: #20222e;
+  color: #fff; }
+.blog .info .font-awesome {
+  color: #41d36c; }
+
+@media (max-width: 767px) {
+  .down {
+    display: none; } }
+
+@media (max-width: 1200px) {
+  .first-img {
+    display: none !important; } }
+
+/*# sourceMappingURL=blog.css.map */

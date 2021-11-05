@@ -1,0 +1,24 @@
+.shopping-cart {
+  overflow: hidden;
+  .top-sec {
+    background: url(../images/hero/bread-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+  }
+  .span {
+    user-select: none;
+    cursor: no-drop;
+  }
+  .quantity {
+    @media (max-width: 991px) {
+     padding: 30px;
+    }
+  }
+  .theBtn {
+    @media (max-width: 991px) {
+     margin: 0 0 5px;
+    }
+  }
+}

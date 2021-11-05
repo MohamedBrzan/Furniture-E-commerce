@@ -1,0 +1,64 @@
+.product {
+  .sofa {
+    font-size: 100px;
+  }
+  .box {
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    background-color: #fff;
+    &:hover {
+      color: white;
+      background-color: var(--secondary-color);
+      transform: translateY(-5%);
+      -webkit-transform: translateY(-5%);
+      -moz-transform: translateY(-5%);
+      -ms-transform: translateY(-5%);
+      -o-transform: translateY(-5%);
+    }
+    &:hover .sofa {
+      color: white;
+    }
+  }
+
+  .line {
+    width: 200px;
+    height: 5px;
+    background-color: var(--secondary-color);
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -10px;
+      width: 5px;
+      height: 5px;
+      background-color: var(--secondary-color);
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: -10px;
+      width: 5px;
+      height: 5px;
+      background-color: #dd7a38;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+    }
+  }
+
+  .product-button {
+    background-image: linear-gradient(315deg, #ee9617 0%, #dd7a38 74%);
+    font-size: 25px;
+  }
+}

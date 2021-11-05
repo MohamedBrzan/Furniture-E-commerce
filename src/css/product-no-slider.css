@@ -1,0 +1,113 @@
+.product-no-slider {
+  overflow: hidden; }
+.product-no-slider .top-sec {
+  background: url(../images/hero/bread-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px; }
+.product-no-slider .filters {
+  background-color: #f7f7f7;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s; }
+.product-no-slider .filters.smooth {
+  padding: 50px;
+  height: 400px; }
+@media (max-width: 767px) {
+  .product-no-slider .filters.smooth {
+    height: 100%; } }
+.product-no-slider .span {
+  user-select: none;
+  cursor: no-drop; }
+.product-no-slider .divRange {
+  left: 100px; }
+.product-no-slider .divRange::before {
+  content: "0$";
+  position: absolute;
+  left: -100px; }
+.product-no-slider ul.ul-color li {
+  width: 25px;
+  height: 25px; }
+.product-no-slider ul.ul-color li:first-of-type {
+  background-color: #c515c5; }
+.product-no-slider ul.ul-color li:nth-child(2) {
+  background-color: rgba(43, 202, 207, 0.467); }
+.product-no-slider ul.ul-color li:nth-child(3) {
+  background-color: rgba(27, 202, 11, 0.467); }
+.product-no-slider ul.ul-color li:nth-child(4) {
+  background-color: #6200ff; }
+.product-no-slider ul.ul-color li:nth-child(5) {
+  background-color: #0f7291; }
+.product-no-slider ul.ul-color li:nth-child(6) {
+  background-color: #124e69; }
+.product-no-slider ul.ul-color li:nth-child(7) {
+  background-color: #ff002b; }
+.product-no-slider ul.ul-color li:nth-child(8) {
+  background-color: #ff004c; }
+.product-no-slider ul.ul-color li:nth-child(9) {
+  background-color: #42f3a9; }
+.product-no-slider ul.ul-color li:nth-child(10) {
+  background-color: #00a2ff; }
+.product-no-slider ul.ul-color li:nth-child(11) {
+  background-color: #ff9900; }
+.product-no-slider ul.ul-color li:nth-child(12) {
+  background-color: black; }
+.product-no-slider ul.ul-color li:nth-child(13) {
+  background-color: #068d60; }
+.product-no-slider ul.ul-color li:nth-child(14) {
+  background-color: #533e3e; }
+.product-no-slider p:hover {
+  color: var(--main-color); }
+.product-no-slider .title {
+  position: relative; }
+.product-no-slider .title::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 30%;
+  height: 1px;
+  background-color: #c3c3c3; }
+.product-no-slider .burger-menu {
+  width: 30px;
+  height: 2px;
+  background-color: #333; }
+.product-no-slider .burger-menu::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  top: 10px;
+  left: 0;
+  background-color: var(--main-color); }
+.product-no-slider .burger-menu::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  top: -10px;
+  left: 0;
+  background-color: var(--main-color); }
+
+.burger-menu.show {
+  background-color: #fff; }
+.burger-menu.show::before {
+  transform: rotate(45deg) translate(-50%, -50%);
+  -webkit-transform: rotate(45deg) translate(-50%, -50%);
+  -moz-transform: rotate(45deg) translate(-50%, -50%);
+  -ms-transform: rotate(45deg) translate(-50%, -50%);
+  -o-transform: rotate(45deg) translate(-50%, -50%); }
+.burger-menu.show::after {
+  transform: rotate(-45deg) translate(-50%, -50%);
+  -webkit-transform: rotate(-45deg) translate(-50%, -50%);
+  -moz-transform: rotate(-45deg) translate(-50%, -50%);
+  -ms-transform: rotate(-45deg) translate(-50%, -50%);
+  -o-transform: rotate(-45deg) translate(-50%, -50%); }
+
+/*# sourceMappingURL=product-no-slider.css.map */

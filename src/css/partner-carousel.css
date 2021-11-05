@@ -1,0 +1,24 @@
+.partner-carousel .partner .row {
+  overflow: hidden; }
+.partner-carousel .partner .partner-img {
+  animation: translateX 20s infinite linear;
+  -webkit-animation: translateX 20s infinite linear; }
+@media (max-width: 991px) {
+  .partner-carousel {
+    display: none; } }
+
+@keyframes translateX {
+  from {
+    transform: translateX(-650%);
+    -webkit-transform: translateX(-650%);
+    -moz-transform: translateX(-650%);
+    -ms-transform: translateX(-650%);
+    -o-transform: translateX(-650%); }
+  to {
+    transform: translateX(700%);
+    -webkit-transform: translateX(700%);
+    -moz-transform: translateX(700%);
+    -ms-transform: translateX(700%);
+    -o-transform: translateX(700%); } }
+
+/*# sourceMappingURL=partner-carousel.css.map */

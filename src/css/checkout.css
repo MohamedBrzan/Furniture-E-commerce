@@ -1,0 +1,13 @@
+.checkout {
+  overflow: hidden; }
+.checkout .top-sec {
+  background: url(../images/hero/bread-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px; }
+.checkout .span {
+  user-select: none;
+  cursor: no-drop; }
+
+/*# sourceMappingURL=checkout.css.map */

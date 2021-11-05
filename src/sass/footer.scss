@@ -1,0 +1,73 @@
+.footer {
+  .link {
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    &:hover {
+      color: var(--main-color);
+    }
+  }
+  .footer-line {
+    width: 150px;
+    height: 5px;
+    background-color: var(--secondary-color);
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: -10px;
+      width: 5px;
+      height: 5px;
+      background-color: #dd7a38;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+    }
+  }
+  ul {
+    li {
+      position: relative;
+      transition: 0.5s;
+      -webkit-transition: 0.5s;
+      -moz-transition: 0.5s;
+      -ms-transition: 0.5s;
+      -o-transition: 0.5s;
+      &::before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 3px;
+        top: 10px;
+        left: -15px;
+        background-color: var(--main-color);
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+      }
+      &:hover {
+        padding-left: 10px;
+        color: var(--main-color);
+        &::before {
+          width: 15px;
+        }
+      }
+    }
+  }
+  .myLink {
+    @media (max-width: 500px) {
+      font-size: 12px;
+    }
+  }
+}

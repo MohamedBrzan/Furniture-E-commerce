@@ -1,0 +1,20 @@
+.search-icon {
+  top: 7px;
+  right: 20px; }
+
+@media (max-width: 1400px) {
+  .search {
+    display: none; } }
+
+@media (max-width: 1210px) {
+  .re-search {
+    display: block; } }
+
+.login {
+  width: 100%;
+  margin: auto; }
+@media (min-width: 991px) {
+  .login {
+    width: 30% !important; } }
+
+/*# sourceMappingURL=forms.css.map */

@@ -1,0 +1,65 @@
+@import "../scss/fontawesome.scss";
+@import "../scss/solid.scss";
+@import "../scss/regular.scss";
+@import "../scss/brands.scss";
+
+.product-list {
+  .top-sec {
+    background: url(../images/hero/bread-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+  }
+  overflow: hidden;
+  .span {
+    user-select: none;
+    cursor: no-drop;
+  }
+  .row {
+    .check {
+      @include fa-icon;
+      @extend .fas;
+      font-family: "Tahoma";
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: -30px;
+        width: 20px;
+        height: 20px;
+        border: 1px solid #000;
+        z-index: 2;
+      }
+      &::after {
+        content: fa-content($fa-var-check);
+        font-weight: $fa-style;
+        font-family: $fa-style-family;
+        position: absolute;
+        top: 0px;
+        left: -30px;
+        z-index: 1;
+        padding: 2px;
+        background-color: var(--main-color);
+        display: none;
+      }
+      &:hover {
+        &::after {
+          display: block;
+        }
+      }
+    }
+  }
+  .divRange {
+    left: 100px;
+    &::before {
+      content: "0$";
+      position: absolute;
+      left: -100px;
+    }
+  }
+  .down {
+    left: 50px;
+  }
+}

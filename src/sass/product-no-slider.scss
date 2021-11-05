@@ -1,0 +1,148 @@
+.product-no-slider {
+  .top-sec {
+    background: url(../images/hero/bread-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+  }
+  .filters {
+    background-color: #f7f7f7;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+  .filters.smooth {
+    padding: 50px;
+    height: 400px;
+    @media (max-width: 767px) {
+      height: 100%;
+    }
+  }
+  overflow: hidden;
+
+  .span {
+    user-select: none;
+    cursor: no-drop;
+  }
+
+  .divRange {
+    left: 100px;
+    &::before {
+      content: "0$";
+      position: absolute;
+      left: -100px;
+    }
+  }
+
+  ul.ul-color {
+    li {
+      width: 25px;
+      height: 25px;
+    }
+    li:first-of-type {
+      background-color: rgb(197, 21, 197);
+    }
+    li:nth-child(2) {
+      background-color: rgba(43, 202, 207, 0.467);
+    }
+    li:nth-child(3) {
+      background-color: rgba(27, 202, 11, 0.467);
+    }
+    li:nth-child(4) {
+      background-color: rgb(98, 0, 255);
+    }
+    li:nth-child(5) {
+      background-color: rgb(15, 114, 145);
+    }
+    li:nth-child(6) {
+      background-color: rgb(18, 78, 105);
+    }
+    li:nth-child(7) {
+      background-color: rgb(255, 0, 43);
+    }
+    li:nth-child(8) {
+      background-color: rgb(255, 0, 76);
+    }
+    li:nth-child(9) {
+      background-color: rgb(66, 243, 169);
+    }
+    li:nth-child(10) {
+      background-color: rgb(0, 162, 255);
+    }
+    li:nth-child(11) {
+      background-color: rgb(255, 153, 0);
+    }
+    li:nth-child(12) {
+      background-color: rgb(0, 0, 0);
+    }
+    li:nth-child(13) {
+      background-color: rgb(6, 141, 96);
+    }
+    li:nth-child(14) {
+      background-color: rgb(83, 62, 62);
+    }
+  }
+  p {
+    &:hover {
+      color: var(--main-color);
+    }
+  }
+  .title {
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 30px;
+      left: 0;
+      width: 30%;
+      height: 1px;
+      background-color: #c3c3c3;
+    }
+  }
+  .burger-menu {
+    width: 30px;
+    height: 2px;
+    background-color: #333;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 30px;
+      height: 2px;
+      top: 10px;
+      left: 0;
+      background-color: var(--main-color);
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      width: 30px;
+      height: 2px;
+      top: -10px;
+      left: 0;
+      background-color: var(--main-color);
+    }
+  }
+}
+.burger-menu.show {
+  background-color: #fff;
+  &::before {
+    transform: rotate(45deg) translate(-50%, -50%);
+    -webkit-transform: rotate(45deg) translate(-50%, -50%);
+    -moz-transform: rotate(45deg) translate(-50%, -50%);
+    -ms-transform: rotate(45deg) translate(-50%, -50%);
+    -o-transform: rotate(45deg) translate(-50%, -50%);
+  }
+  &::after {
+    transform: rotate(-45deg) translate(-50%, -50%);
+    -webkit-transform: rotate(-45deg) translate(-50%, -50%);
+    -moz-transform: rotate(-45deg) translate(-50%, -50%);
+    -ms-transform: rotate(-45deg) translate(-50%, -50%);
+    -o-transform: rotate(-45deg) translate(-50%, -50%);
+  }
+}

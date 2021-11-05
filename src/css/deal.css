@@ -1,0 +1,64 @@
+.deal .box {
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  background-color: #fff; }
+.deal .box:hover {
+  color: white;
+  background-color: var(--secondary-color);
+  transform: translateY(-5%);
+  -webkit-transform: translateY(-5%);
+  -moz-transform: translateY(-5%);
+  -ms-transform: translateY(-5%);
+  -o-transform: translateY(-5%); }
+.deal .box:hover .sofa {
+  color: white; }
+.deal .img {
+  overflow: hidden; }
+.deal .img img {
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s; }
+.deal .img:hover img {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05); }
+
+.line {
+  width: 200px;
+  height: 5px;
+  background-color: var(--secondary-color); }
+.line::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -10px;
+  width: 5px;
+  height: 5px;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%; }
+.line::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -10px;
+  width: 5px;
+  height: 5px;
+  background-color: #dd7a38;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%; }
+
+/*# sourceMappingURL=deal.css.map */

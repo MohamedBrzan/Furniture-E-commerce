@@ -1,0 +1,15 @@
+.wishlist {
+  overflow: hidden; }
+.wishlist .top-sec {
+  background: url(../images/hero/bread-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px; }
+.wishlist .span {
+  user-select: none;
+  cursor: no-drop; }
+.wishlist .close {
+  margin-top: 35px; }
+
+/*# sourceMappingURL=wishlist.css.map */

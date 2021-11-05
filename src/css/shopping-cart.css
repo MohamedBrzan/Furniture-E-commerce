@@ -1,0 +1,19 @@
+.shopping-cart {
+  overflow: hidden; }
+.shopping-cart .top-sec {
+  background: url(../images/hero/bread-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px; }
+.shopping-cart .span {
+  user-select: none;
+  cursor: no-drop; }
+@media (max-width: 991px) {
+  .shopping-cart .quantity {
+    padding: 30px; } }
+@media (max-width: 991px) {
+  .shopping-cart .theBtn {
+    margin: 0 0 5px; } }
+
+/*# sourceMappingURL=shopping-cart.css.map */

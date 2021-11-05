@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,GAAI;EACF,gBAAgB,EAAE,UAAU;AAC5B,OAAI;EACF,SAAS,EAAE,KAAK",
+"sources": ["../sass/not-found.scss"],
+"names": [],
+"file": "not-found.css"
+}

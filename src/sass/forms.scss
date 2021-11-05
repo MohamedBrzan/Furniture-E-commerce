@@ -1,0 +1,24 @@
+.search-icon {
+  top: 7px;
+  right: 20px;
+}
+
+.search {
+  @media (max-width: 1400px) {
+    display: none;
+  }
+}
+
+.re-search {
+  @media (max-width: 1210px) {
+    display: block;
+  }
+}
+
+.login {
+  width: 100%;
+  margin: auto;
+  @media (min-width: 991px) {
+    width: 30% !important;
+  }
+}
