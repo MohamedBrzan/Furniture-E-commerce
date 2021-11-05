@@ -1,0 +1,66 @@
+:root {
+  --main-color: #ffa945;
+  --secondary-color: #dd7a38;
+  --new-product: #fb6161;
+  --discount: #ea8c40;
+}
+
+.btn-check:focus + .btn,
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem var(--main-color);
+}
+
+.form-control:focus {
+  color: var(--main-color);
+  background-color: transparent;
+  border-color: var(--main-color);
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem var(--main-color);
+}
+
+.form-select:focus {
+  border-color: var(--main-color);
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem var(--main-color);
+}
+
+.outline-0 {
+  outline: none !important;
+}
+
+.form-check-input:focus {
+  border-color: var(--main-color);
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem var(--main-color);
+}
+
+.form-check-input:checked {
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+}
+
+.form-check-input[type="checkbox"]:indeterminate {
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+}
+
+.form-select:focus {
+  border-color: var(--main-color);
+  box-shadow: 0 0 0 0.25rem var(--main-color);
+}
+
+.form-range:focus::-webkit-slider-thumb {
+  box-shadow: 0 0 0 0.25rem var(--main-color);
+}
+.form-range:focus::-moz-range-thumb {
+  box-shadow: 0 0 0 0.25rem var(--main-color);
+}
+
+.form-range::-webkit-slider-thumb {
+  background-color: var(--main-color);
+}
+
+.form-range::-moz-range-thumb {
+  background-color: var(--main-color);
+}
