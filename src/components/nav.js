@@ -21,7 +21,6 @@ import NotFound from "./not-found";
 import { DropDown, Search, ResSearch, Login, Register } from "./forms.js";
 import logo from "../images/logo.png";
 import { AiOutlineMenu } from "react-icons/ai";
-import { GrClose } from "react-icons/gr";
 import { CgChevronDown } from "react-icons/cg";
 import { TableFooter } from "@mui/material";
 
@@ -96,7 +95,7 @@ class Nav extends React.Component {
                 <li className=" p-2 position-relative departments ul">
                   {" "}
                   <Link className="btn text-uppercase " to="/departments">
-                    departments
+                    departments <CgChevronDown />
                   </Link>
                   <div className="row p-5 bg-white department-section position-absolute">
                     {" "}
@@ -297,7 +296,7 @@ class Nav extends React.Component {
                 <li className="p-2 ul position-relative pages">
                   {" "}
                   <Link className="btn text-uppercase " to="#">
-                    pages
+                    pages <CgChevronDown />
                     <ul className="list-unstyled position-absolute page-drop">
                       <li className="text-capitalize head text-start d-block product-page">
                         product page
